@@ -1,0 +1,59 @@
+
+#name {
+   
+  width: 150px;
+  background-color: #4aaaa5; 
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px; 
+  left: 12%; 
+  display: inline-block;
+  float : left;
+  height: 70px;
+  margin-left: 15%;
+  line-height: 70px;
+  vertical-align: middle;
+  margin-top: -10px;
+
+}
+
+#nav {
+  width: 100%; 
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+  padding: 10px 0 10px 0; 
+  height: 70px;
+  line-height: 40px;
+}
+
+#footer {
+  border-top: 8px solid #4aaaa5;
+  background-color: #666;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  position: absolute;
+  bottom: 10;
+  left: 0; 
+  width: 100%;    
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15%;
+  
+}
+
+li {
+  display: inline-block; 
+  padding: 0 25px 0 25px; 
+}
+a {
+  text-decoration: none;
+  color: #777; 
+  
+}

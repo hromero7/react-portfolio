@@ -1,0 +1,41 @@
+#profilePic {
+    float: left;
+    padding: 15px; 
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-bio {
+    line-height: 35px;
+}
+
+hr {
+    width: 100%;  
+}
+
+h1,h2,h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background-image: url("../../assets/positive.png");
+    margin: 0;
+
+}
+
+#main { 
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin-bottom: 50px;
+}

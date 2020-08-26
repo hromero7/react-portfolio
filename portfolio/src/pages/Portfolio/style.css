@@ -1,40 +1,58 @@
-#main-portfolio {
+.portfolio-heading {
+    margin-top: 3.5rem;
+    color: white;
+    font-weight: 400;
+}
+
+.card-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: left;
+    /* margin-left: 3rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   /* grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.5rem; */
+    height: 100%;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card {
+    margin: 20px;
+    width: 24rem;
+    background-color: #516c8d;
+    color: white;
+    border: none;
+}
+
+.github-link i{
+    border-radius: 0%;
+    color: white;
+    font-size: 3.5rem;
+
+}
+
+.deploy-link i{
+    position: relative;
+    top: -10px;
+    border-radius: 7px;
+    color: #516c8d;
+    font-size: 1.9rem;
     background-color: white;
-    width: 750px;
-    margin: 0 auto;
-    margin-top: 40px;
-    border: 1px solid #ddd; 
-    padding: 20px; 
-    margin-bottom: 100px; 
+    padding: 10px;
+
 }
 
-.grid-container {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-}
 
-.grid-item {
-    margin: 20px; 
-    text-align: bottom;
-    color: red; 
-    
-}
-
-.images {
-    border: 1px solid #ddd; 
-    width: 250px; 
-    
-}
-
-.caption {
-    background-color: #4aaaa5; 
-    color: white; 
-    margin: 0; 
-    width: 92%; 
-    text-align: center; 
-    padding: 10px; 
-    position: relative; 
-    top: -55px; 
-}
-
- 
+  img { 
+     border-radius: 0;
+ }

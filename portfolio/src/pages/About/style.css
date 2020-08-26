@@ -56,7 +56,7 @@
 }
 /******** About Me CSS **********/
 
-img {
+.profile-image {
     width: 200px;
     height: 200px;
     border-radius: 10rem;
@@ -130,7 +130,7 @@ img {
 }
 
 .timeline ul {
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid white;
     /* border-radius: .8rem; */
     /* background-color: rgba(0,0,0,0.05); */
     margin: 0 auto;
@@ -186,12 +186,12 @@ img {
 
 .timeline .date::after {
     content: "";
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px rgb(109, 213, 250); 
     border-radius: 100%;
     left: -6rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #313554;
+    background-color: rgb(41, 128, 185);
 }
 
 
@@ -220,7 +220,8 @@ img {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 680px) {
+   
     .about {
       flex-direction: column;
     }
@@ -228,17 +229,80 @@ img {
     .profile-img {
         margin: 5% 0 5% 0;
     }
+
+
     .about-details p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .timeline p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
+
+    .timeline h1 {
+        font-size: 24px;
+    }
+
+    .timeline h2 {
+        font-size: 17px;
+    }
     .timeline .date::before {
-        font-size: 1.3rem;
+        font-size: 20px;
+        position: relative;
+        left: 0;
+        text-align: left;
     }
 
+    .timeline .date::after {
+        top: 0;
+    }
+
+    .timeline ul{
+        /* left: -5rem; */
+        width: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 450px ) {
+    .section-heading h1{
+        font-size: 1.88rem;
+    }
+
+    .history-heading h1 {
+        margin-bottom: 3rem;
+    }
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+     .icon-container i {
+        font-size: 3.5rem;
+    }
+
+    .skill h1 {
+        font-size: 2rem;
+    }
+
+
+    .timeline h1 {
+        font-size: 20px;
+    } 
+
+    .timeline ul {
+        padding: 1rem;
+    }
+    
+    .timeline .date::before {
+        left: 0;
+    }
+
+    .timeline .date::after {
+        left: -2rem;
+        
+    }
 
 }
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");

@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@font-face {
+  font-family: 'The Historia Demo';
+  src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
+       url('fonts/thehistoriademo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .container {
     /* background: black; */
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     color: white;
 }
@@ -17,10 +25,11 @@
 }
 
 body {
-    background: linear-gradient(-45deg, rgb(0, 90, 167), rgb(255, 253, 228));
+    background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
+    /* background:  rgb(72, 75, 83); */
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    
+    font-family: 'Nunito', sans-serif;
 }
 
 @keyframes gradient {
@@ -35,10 +44,27 @@ body {
     }
 }
 
+
+
 .name-tag {
-    color: black;
+    font-size: 12rem;
+    font-family: "The Historia Demo", sans-serif;
+    background: linear-gradient(to bottom, rgb(41, 128, 185), rgb(109, 213, 250), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding: 1rem; */
+    user-select: none;
+    margin-bottom: 0;
 }
 
+.name-subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.social-icons {
+    margin-bottom: 10rem;
+}
 .fab {
     font-size: 50px;
     margin: 10px;
@@ -48,4 +74,18 @@ body {
 
 .fab:hover {
     color: #00d1b2;
+}
+
+@media screen and (max-width: 600px) {
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+    .name-tag {
+        font-size: 7rem;
+    }
+
+    .name-subtitle {
+        font-size: 1.5rem;
+    }
 }

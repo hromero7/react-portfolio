@@ -10,16 +10,16 @@ const About = () => {
     }, []);
     return (
         <div className="experience">
-            <div data-aos="fade-down" className="section-heading about-heading">
+            <div data-aos="fade" className="section-heading about-heading">
                     <h1>About Me</h1>
                     {/* <h6>Past and Current Jobs</h6> */}
                 </div>
-            <div data-aos="fade-down" className="container about">
+            <div className="container about">
                 
-                <div className="profile-img">
-                    <img src={profilePic} alt="portrait"></img>
+                <div data-aos="fade-right" className="profile-img">
+                    <img className="profile-image" src={profilePic} alt="portrait"></img>
                 </div>
-                <div className="about-details">
+                <div data-aos="fade-left" className="about-details">
                     <p>
                         Full Stack Developer with a Bachelor’s in Business Administration/ Marketing.
                         I have a strong passion for programming and learning new technologies. 
@@ -33,7 +33,7 @@ const About = () => {
                     <h1>Skills</h1>
                     {/* <h6>What I can do for you</h6> */}
                 </div>
-                <div className="my-skills">
+                <div data-aos="fade-up" className="my-skills">
                     <div className="skill">
                         <div className="icon-container">
                             <i className="fab fa-react"></i>
@@ -85,7 +85,7 @@ const About = () => {
                 </div>
             </div>
             <div data-aos="fade-up" className="container work-container">
-                <div className="section-heading">
+                <div className="section-heading history-heading">
                     <h1>Work Experience <i className="fas fa-briefcase"></i></h1>
                     {/* <h6>Past and Current Jobs</h6> */}
                 </div>
@@ -116,7 +116,7 @@ const About = () => {
                 </div>
             </div>
             <div data-aos="fade-up" className="container">
-                <div className="section-heading">
+                <div className="section-heading history-heading">
                     <h1>Education <i className="fas fa-graduation-cap"></i></h1>
                     {/* <h6>Past and Current Jobs</h6> */}
                 </div>

@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="contact-info">
         <div className="card-info">
         <i className="fas fa-phone card-icon"></i>
-        <p>(951)329-7052</p>
+        <p>(951) 329-7052</p>
         </div>
         </div>
         

@@ -124,7 +124,7 @@ const About = () => {
                     <ul>
                         <li className="date" value="2020 - 2020">
                             <h1>University of California, Riverside</h1>
-                            <h2>Bootcamp Certificate</h2>
+                            <h2>Certificate in Full Stack Web Development</h2>
                             <p>
                             A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js and ReactJS.
                             </p>

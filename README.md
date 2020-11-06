@@ -15,7 +15,16 @@ Create a modern and polished portfolio site that showcases some of my most notew
 Screenshots of the completed application are below:
 
 **Main Page**
-![](./directory/src/employee-directory.png)
+![](./portfolio/src/assets/homepage.png)
+
+**About Page**
+![](./portfolio/src/assets/about.png)
+
+**Portfolio Page**
+![](./portfolio/src/assets/projects.png)
+
+**Contact Page**
+![](./portfolio/src/assets/contact.png)
 
 ## Installation
 
